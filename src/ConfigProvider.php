@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ruga\Asset\Skeleton;
+namespace Ruga\Asset\jquery_highlight;
 
 /**
  * ConfigProvider.
@@ -16,9 +16,10 @@ class ConfigProvider
         return [
             'ruga' => [
                 'asset' => [
-                    'rugalib/ruga-asset-alertify' => [
-                        'scripts' => [],
+                    'rugalib/ruga-asset-jquery-highlight' => [
+                        'scripts' => ['jquery.highlight-5.js'],
                         'stylesheets' => [],
+                        'require' => ['rugalib/asset-jquery' => '^3.5']
                     ],
                 ],
             ],

@@ -1,10 +1,11 @@
 {
-  "name": "rugalib/ruga-asset-skeleton",
-  "description": "Template for rugalib assets",
-  "homepage": "https://github.com/rugalib",
+  "name": "rugalib/ruga-asset-jquery-highlight",
+  "description": "highlight: JavaScript text higlighting jQuery plugin",
+  "homepage": "https://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html",
   "type": "library",
   "require": {
-    "php": "^7.4"
+    "php": "^7.4",
+    "rugalib/asset-jquery": "^3.5"
   },
   "repositories": [
     {
@@ -14,19 +15,23 @@
   ],
   "authors": [
     {
+      "name": "Johann Burkard",
+      "homepage": "https://johannburkard.de/"
+    },
+    {
       "name": "Roland Rusch",
       "email": "roland.rusch@easy-smart.ch"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Ruga\\Asset\\Skeleton\\": "src/"
+      "Ruga\\Asset\\jquery_highlight\\": "src/"
     }
   },
   "extra": {
     "laminas": {
-      "component": "Ruga\\Asset\\Skeleton",
-      "config-provider": "Ruga\\Asset\\Skeleton\\ConfigProvider"
+      "component": "Ruga\\Asset\\jquery_highlight",
+      "config-provider": "Ruga\\Asset\\jquery_highlight\\ConfigProvider"
     }
   }
 }
