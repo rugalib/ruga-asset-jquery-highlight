@@ -1,7 +1,7 @@
 {
   "name": "rugalib/ruga-asset-jquery-highlight",
   "description": "highlight: JavaScript text higlighting jQuery plugin",
-  "homepage": "https://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html",
+  "homepage": "http://bartaz.github.io/sandbox.js/jquery.highlight.js",
   "type": "library",
   "require": {
     "php": "^7.4",
@@ -17,6 +17,10 @@
     {
       "name": "Johann Burkard",
       "homepage": "https://johannburkard.de/"
+    },
+    {
+      "name": "Bartek Szopka",
+      "homepage": "https://github.com/bartaz/sandbox.js"
     },
     {
       "name": "Roland Rusch",

@@ -17,7 +17,7 @@ class ConfigProvider
             'ruga' => [
                 'asset' => [
                     'rugalib/ruga-asset-jquery-highlight' => [
-                        'scripts' => ['jquery.highlight-5.js'],
+                        'scripts' => ['jquery.highlight.js'],
                         'stylesheets' => [],
                         'require' => ['rugalib/asset-jquery' => '^3.5']
                     ],
